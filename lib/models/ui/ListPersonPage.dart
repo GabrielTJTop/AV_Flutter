@@ -1,7 +1,6 @@
 import 'package:avaliacao_flutter/models/person.dart';
 import 'package:flutter/material.dart';
 import 'dart:io';
-
 class ListPeoplePage extends StatelessWidget {
   final List<Person> people;
 
