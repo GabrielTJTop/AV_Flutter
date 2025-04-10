@@ -3,6 +3,8 @@ import 'package:avaliacao_flutter/models/ui/addPersonPage.dart';
 import 'package:flutter/material.dart';
 import 'package:avaliacao_flutter/models/ui/ListPersonPage.dart';
 class Home extends StatelessWidget{
+  const Home({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -13,6 +15,8 @@ class Home extends StatelessWidget{
 }
 
 class HomePage extends StatefulWidget {
+  const HomePage({super.key});
+
   @override
   State<HomePage> createState() {
     return HomePageState();

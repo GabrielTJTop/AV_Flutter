@@ -4,7 +4,7 @@ import 'dart:io';
 class ListPeoplePage extends StatelessWidget {
   final List<Person> people;
 
-  ListPeoplePage({required this.people});
+  const ListPeoplePage({super.key, required this.people});
 
   @override
   Widget build(BuildContext context) {
